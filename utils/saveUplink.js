@@ -3,7 +3,6 @@ let chalk = require('chalk')
 
 let log = console.log
 
-moment().format('LTS')
 module.exports = (payload, r) => {
   r.table('uplinks')
     .insert(payload)
